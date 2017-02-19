@@ -17,6 +17,38 @@
             endingLineNumber = "97"
             landmarkName = "handleLoginWithSignInProvider(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MySampleApp.SignInViewController.handleLoginWithSignInProvider (__ObjC.AWSSignInProvider) -&gt; ()"
+                  moduleName = "MySampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukeworley/Desktop/My-Favorite-Spots-aws-my-sample-app-ios-swift/MySampleApp/MySampleApp/App/SignIn/SignInViewController.swift"
+                  timestampString = "509174897.004602"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MySampleApp.SignInViewController.(handleLoginWithSignInProvider (__ObjC.AWSSignInProvider) -&gt; ()).(closure #1)"
+                  moduleName = "MySampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukeworley/Desktop/My-Favorite-Spots-aws-my-sample-app-ios-swift/MySampleApp/MySampleApp/App/SignIn/SignInViewController.swift"
+                  timestampString = "509174897.006081"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,44 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MySampleApp/App/SignIn/SignInViewController.swift"
-            timestampString = "509166076.757863"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "handleFacebookLogin()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MySampleApp/App/SignIn/SignInViewController.swift"
             timestampString = "509157017.619043"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
             endingLineNumber = "87"
             landmarkName = "deinit"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MySampleApp/App/SignIn/SignInViewController.swift"
-            timestampString = "509166076.757863"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
-            landmarkName = "anchorViewForFacebook()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

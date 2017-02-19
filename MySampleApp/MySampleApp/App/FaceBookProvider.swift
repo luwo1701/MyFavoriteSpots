@@ -12,7 +12,6 @@ import FBSDKLoginKit
 
 
 class FacebookProvider: NSObject, AWSIdentityProviderManager {
-    
     func logins() -> AWSTask<NSDictionary> {
         if let token = FBSDKAccessToken.current(){
             return AWSTask(result: [AWSIdentityProviderFacebook:token])

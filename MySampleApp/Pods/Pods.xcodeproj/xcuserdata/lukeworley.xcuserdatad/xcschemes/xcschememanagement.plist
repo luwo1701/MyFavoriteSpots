@@ -14,6 +14,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AWSDynamoDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AWSS3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MySampleApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,12 +32,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>107BB16CDF2E2B77F268EBC24CF29B84</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>53C6112213829CB147F47E473C93F271</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8429C30201BE6C4E9994D735618C6B2E</key>
+		<key>764BF5F8A7793010994AF3D12E8FB7BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F7098779713B711F6C591B62A41F242</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -11,6 +11,7 @@ import AWSCore
 import FBSDKCoreKit
 import FBSDKLoginKit
 
+
 class TestingViewController: UIViewController {
 
     @IBOutlet weak var testText: UILabel!
@@ -22,7 +23,7 @@ class TestingViewController: UIViewController {
         AWSServiceManager.default().defaultServiceConfiguration = configuration
         if FBSDKAccessToken.current() != nil {
             print("user is logged in")
-            print(String(describing: FBSDKAccessToken.current().appID))
+            print(String(describing: credentialProvider.identityId))
         }
         // Do any additional setup after loading the view.
     }

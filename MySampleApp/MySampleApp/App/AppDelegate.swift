@@ -13,6 +13,7 @@
 
 import UIKit
 import FBSDKCoreKit
+import AWSS3
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,8 +24,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
-        
+        let credentialProvider = AWSCognitoCredentialsProvider(regionType: .usWest2, identityPoolId: "us-west-2:a8ed7db7-feaf-4016-b66c-2f3c7df17dec")
+        let configuration = AWSServiceConfiguration(region:.usWest2, credentialsProvider:credentialProvider)
+        AWSServiceManager.default().defaultServiceConfiguration = configuration
         return AWSMobileClient.sharedInstance.didFinishLaunching(application, withOptions: launchOptions)
+        
     }
     
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
