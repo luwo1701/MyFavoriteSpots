@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D83659CD86D1C1B8795148D /* Pods_MySampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2EA62EF859E88597E73F67B /* Pods_MySampleApp.framework */; };
+		C5D957DB1E5920A20013A99E /* FaceBookProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D957DA1E5920A20013A99E /* FaceBookProvider.swift */; };
+		C5D957DF1E5936730013A99E /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D957DE1E5936730013A99E /* TestingViewController.swift */; };
+		E7A30F04077D295600000000 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29F31C638F00000000 /* SignIn.storyboard */; };
+		E7A30F0407CAE03600000000 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29EBA6D9AE00000000 /* CFNetwork.framework */; };
+		E7A30F04136B082C00000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29FC16223000000000 /* UIKit.framework */; };
+		E7A30F041B4FE28C00000000 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2992FEE2B600000000 /* SystemConfiguration.framework */; };
+		E7A30F042D45845500000000 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E293060CB0400000000 /* MainViewController.swift */; };
+		E7A30F044160A51E00000000 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29B7F9C4F700000000 /* FBSDKLoginKit.framework */; };
+		E7A30F0468D8BE7C00000000 /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E298B22845700000000 /* AWSMobileHubHelper.framework */; };
+		E7A30F0479ACCE1500000000 /* AWSMobileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29501328E800000000 /* AWSMobileClient.swift */; };
+		E7A30F047B57DFEF00000000 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E296D3DE6A900000000 /* libz.tbd */; };
+		E7A30F04879C1BE100000000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29ECE4531800000000 /* AppDelegate.swift */; };
+		E7A30F04887DF4A600000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29B1BB89BA00000000 /* Foundation.framework */; };
+		E7A30F049116417300000000 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E298B55065A00000000 /* MediaPlayer.framework */; };
+		E7A30F0491C7F35D00000000 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29B2447A6600000000 /* Launch Screen.storyboard */; };
+		E7A30F04A0D4545E00000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29096EDB9200000000 /* Main.storyboard */; };
+		E7A30F04A2C572B800000000 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29AA1F50A100000000 /* UtilityFunctions.swift */; };
+		E7A30F04A627D6FE00000000 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29B2FD179F00000000 /* libsqlite3.tbd */; };
+		E7A30F04AFAE825300000000 /* UserIdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E2987F8D12000000000 /* UserIdentityViewController.swift */; };
+		E7A30F04B7CAB6BF00000000 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29FA5015D600000000 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7A30F04B7CAB6BF00000001 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29FA5015D600000000 /* AWSCore.framework */; };
+		E7A30F04BE2015F700000000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E292EA3F0F600000000 /* Images.xcassets */; };
+		E7A30F04C19E1A5200000000 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29A767D53000000000 /* Security.framework */; };
+		E7A30F04C885E7E200000000 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29B03B929400000000 /* SafariServices.framework */; };
+		E7A30F04D9E365EC00000000 /* DemoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29218BD6F000000000 /* DemoFeature.swift */; };
+		E7A30F04F461178300000000 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29008FEFA700000000 /* SignInViewController.swift */; };
+		E7A30F04F53C2E0300000000 /* UserIdentity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29C03E45F600000000 /* UserIdentity.storyboard */; };
+		E7A30F04FB2A5A7C00000000 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2977531F1B00000000 /* FBSDKCoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAF5FAC90000000000000000 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7A30F04B7CAB6BF00000000 /* AWSCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		059355B4D0BF77CB2BE3A625 /* Pods-MySampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySampleApp/Pods-MySampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1DD70E29008FEFA700000000 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = MySampleApp/App/SignIn/SignInViewController.swift; sourceTree = SOURCE_ROOT; };
+		1DD70E29096EDB9200000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = MySampleApp/App/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		1DD70E29218BD6F000000000 /* DemoFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoFeature.swift; path = MySampleApp/Demo/DemoFeature.swift; sourceTree = SOURCE_ROOT; };
+		1DD70E292EA3F0F600000000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MySampleApp/App/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		1DD70E293060CB0400000000 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = MySampleApp/App/MainViewController.swift; sourceTree = SOURCE_ROOT; };
+		1DD70E29501328E800000000 /* AWSMobileClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AWSMobileClient.swift; path = MySampleApp/AmazonAws/AWSMobileClient.swift; sourceTree = SOURCE_ROOT; };
+		1DD70E296D3DE6A900000000 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1DD70E2971CD20D500000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MySampleApp/App/SupportingFiles/Info.plist; sourceTree = SOURCE_ROOT; };
+		1DD70E2977531F1B00000000 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = MySampleApp/Sdk/Facebook/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1DD70E2987F8D12000000000 /* UserIdentityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserIdentityViewController.swift; path = MySampleApp/Demo/UserIdentity/UserIdentityViewController.swift; sourceTree = SOURCE_ROOT; };
+		1DD70E298B22845700000000 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileHubHelper.framework; path = MySampleApp/AmazonAws/AWSMobileHubHelper.framework; sourceTree = "<group>"; };
+		1DD70E298B55065A00000000 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1DD70E2992FEE2B600000000 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1DD70E29A767D53000000000 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1DD70E29A9377E3A00000000 /* MySampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MySampleApp.entitlements; path = MySampleApp/MySampleApp.entitlements; sourceTree = SOURCE_ROOT; };
+		1DD70E29AA1F50A100000000 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UtilityFunctions.swift; path = MySampleApp/App/Utility/UtilityFunctions.swift; sourceTree = SOURCE_ROOT; };
+		1DD70E29B03B929400000000 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		1DD70E29B1BB89BA00000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DD70E29B2447A6600000000 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "MySampleApp/App/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		1DD70E29B2FD179F00000000 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1DD70E29B7F9C4F700000000 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = MySampleApp/Sdk/Facebook/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		1DD70E29C03E45F600000000 /* UserIdentity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = UserIdentity.storyboard; path = MySampleApp/Demo/UserIdentity/UserIdentity.storyboard; sourceTree = SOURCE_ROOT; };
+		1DD70E29EBA6D9AE00000000 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1DD70E29ECE4531800000000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MySampleApp/App/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		1DD70E29F31C638F00000000 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = SignIn.storyboard; path = MySampleApp/App/SignIn/SignIn.storyboard; sourceTree = SOURCE_ROOT; };
+		1DD70E29F5DB40AB00000000 /* MySampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MySampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD70E29FA5015D600000000 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = MySampleApp/Sdk/Aws/AWSCore.framework; sourceTree = "<group>"; };
+		1DD70E29FC16223000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6592B45F7BB737266130A022 /* Pods-MySampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySampleApp/Pods-MySampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		A2EA62EF859E88597E73F67B /* Pods_MySampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D957DA1E5920A20013A99E /* FaceBookProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceBookProvider.swift; path = MySampleApp/App/FaceBookProvider.swift; sourceTree = SOURCE_ROOT; };
+		C5D957DE1E5936730013A99E /* TestingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestingViewController.swift; path = MySampleApp/App/TestingViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F426D880000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A30F04B7CAB6BF00000001 /* AWSCore.framework in Frameworks */,
+				E7A30F0468D8BE7C00000000 /* AWSMobileHubHelper.framework in Frameworks */,
+				E7A30F044160A51E00000000 /* FBSDKLoginKit.framework in Frameworks */,
+				E7A30F04FB2A5A7C00000000 /* FBSDKCoreKit.framework in Frameworks */,
+				E7A30F04136B082C00000000 /* UIKit.framework in Frameworks */,
+				E7A30F041B4FE28C00000000 /* SystemConfiguration.framework in Frameworks */,
+				E7A30F04C19E1A5200000000 /* Security.framework in Frameworks */,
+				E7A30F0407CAE03600000000 /* CFNetwork.framework in Frameworks */,
+				E7A30F047B57DFEF00000000 /* libz.tbd in Frameworks */,
+				E7A30F04A627D6FE00000000 /* libsqlite3.tbd in Frameworks */,
+				E7A30F04887DF4A600000000 /* Foundation.framework in Frameworks */,
+				E7A30F049116417300000000 /* MediaPlayer.framework in Frameworks */,
+				E7A30F04C885E7E200000000 /* SafariServices.framework in Frameworks */,
+				0D83659CD86D1C1B8795148D /* Pods_MySampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC3EFF126BCFEFA16765B34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				059355B4D0BF77CB2BE3A625 /* Pods-MySampleApp.debug.xcconfig */,
+				6592B45F7BB737266130A022 /* Pods-MySampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B401C97938995B0A00000000 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29218BD6F000000000 /* DemoFeature.swift */,
+				B401C9795916BB7200000000 /* UserIdentity */,
+			);
+			name = Demo;
+			path = mysampleapp/demo;
+			sourceTree = "<group>";
+		};
+		B401C9795916BB7200000000 /* UserIdentity */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29C03E45F600000000 /* UserIdentity.storyboard */,
+				1DD70E2987F8D12000000000 /* UserIdentityViewController.swift */,
+			);
+			name = UserIdentity;
+			path = mysampleapp/demo/useridentity;
+			sourceTree = "<group>";
+		};
+		B401C979B9F00F9600000000 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29ECE4531800000000 /* AppDelegate.swift */,
+				C5D957DA1E5920A20013A99E /* FaceBookProvider.swift */,
+				1DD70E292EA3F0F600000000 /* Images.xcassets */,
+				1DD70E29B2447A6600000000 /* Launch Screen.storyboard */,
+				1DD70E29096EDB9200000000 /* Main.storyboard */,
+				1DD70E293060CB0400000000 /* MainViewController.swift */,
+				C5D957DE1E5936730013A99E /* TestingViewController.swift */,
+				B401C979E100CAB200000000 /* SignIn */,
+				B401C979DBB4629A00000000 /* SupportingFiles */,
+				B401C979E43C098A00000000 /* Utility */,
+			);
+			name = App;
+			path = mysampleapp/app;
+			sourceTree = "<group>";
+		};
+		B401C979BAD7438500000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29FA5015D600000000 /* AWSCore.framework */,
+				1DD70E298B22845700000000 /* AWSMobileHubHelper.framework */,
+				1DD70E29EBA6D9AE00000000 /* CFNetwork.framework */,
+				1DD70E2977531F1B00000000 /* FBSDKCoreKit.framework */,
+				1DD70E29B7F9C4F700000000 /* FBSDKLoginKit.framework */,
+				1DD70E29B1BB89BA00000000 /* Foundation.framework */,
+				1DD70E298B55065A00000000 /* MediaPlayer.framework */,
+				1DD70E29B03B929400000000 /* SafariServices.framework */,
+				1DD70E29A767D53000000000 /* Security.framework */,
+				1DD70E2992FEE2B600000000 /* SystemConfiguration.framework */,
+				1DD70E29FC16223000000000 /* UIKit.framework */,
+				1DD70E29B2FD179F00000000 /* libsqlite3.tbd */,
+				1DD70E296D3DE6A900000000 /* libz.tbd */,
+				A2EA62EF859E88597E73F67B /* Pods_MySampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B401C979BAF0161800000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29F5DB40AB00000000 /* MySampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B401C979C9A9E59200000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B401C979BAD7438500000000 /* Frameworks */,
+				B401C979BAF0161800000000 /* Products */,
+				B401C979CB3B363600000000 /* MySampleApp */,
+				5BC3EFF126BCFEFA16765B34 /* Pods */,
+			);
+			name = mainGroup;
+			sourceTree = "<group>";
+		};
+		B401C979CB3B363600000000 /* MySampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B401C979DFB0EE6600000000 /* AmazonAws */,
+				B401C979B9F00F9600000000 /* App */,
+				B401C97938995B0A00000000 /* Demo */,
+				1DD70E29A9377E3A00000000 /* MySampleApp.entitlements */,
+			);
+			name = MySampleApp;
+			path = mysampleapp;
+			sourceTree = "<group>";
+		};
+		B401C979DBB4629A00000000 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E2971CD20D500000000 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			path = mysampleapp/app/supportingfiles;
+			sourceTree = "<group>";
+		};
+		B401C979DFB0EE6600000000 /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29501328E800000000 /* AWSMobileClient.swift */,
+			);
+			name = AmazonAws;
+			path = mysampleapp/amazonaws;
+			sourceTree = "<group>";
+		};
+		B401C979E100CAB200000000 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29F31C638F00000000 /* SignIn.storyboard */,
+				1DD70E29008FEFA700000000 /* SignInViewController.swift */,
+			);
+			name = SignIn;
+			path = mysampleapp/app/signin;
+			sourceTree = "<group>";
+		};
+		B401C979E43C098A00000000 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29AA1F50A100000000 /* UtilityFunctions.swift */,
+			);
+			name = Utility;
+			path = mysampleapp/app/utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E66DC04E0000000000000000 /* MySampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218C37090000000000000001 /* Build configuration list for PBXNativeTarget "MySampleApp" */;
+			buildPhases = (
+				5C05C331464C577B3991FCDE /* [CP] Check Pods Manifest.lock */,
+				E1F174220000000000000001 /* ShellScript */,
+				1870857F0000000000000000 /* Sources */,
+				4F426D880000000000000000 /* Frameworks */,
+				8A032D2C0000000000000000 /* Resources */,
+				FAF5FAC90000000000000000 /* Embed Frameworks */,
+				E1F174220000000000000000 /* ShellScript */,
+				535359B28B983433EBD11463 /* [CP] Embed Pods Frameworks */,
+				FDD5E977F1DBF41868E244F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySampleApp;
+			productName = MySampleApp;
+			productReference = 1DD70E29F5DB40AB00000000 /* MySampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C847930000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					E66DC04E0000000000000000 = {
+						DevelopmentTeam = GT4K6PPZJ6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 218C37090000000000000000 /* Build configuration list for PBXProject "MySampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B401C979C9A9E59200000000 /* mainGroup */;
+			productRefGroup = B401C979BAF0161800000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E66DC04E0000000000000000 /* MySampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A032D2C0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A30F04077D295600000000 /* SignIn.storyboard in Resources */,
+				E7A30F0491C7F35D00000000 /* Launch Screen.storyboard in Resources */,
+				E7A30F04BE2015F700000000 /* Images.xcassets in Resources */,
+				E7A30F04F53C2E0300000000 /* UserIdentity.storyboard in Resources */,
+				E7A30F04A0D4545E00000000 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		535359B28B983433EBD11463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySampleApp/Pods-MySampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C05C331464C577B3991FCDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F174220000000000000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"";
+		};
+		E1F174220000000000000001 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=${SRCROOT}/MySampleApp/Sdk/CheckXcodeVersion.sh\nif [ -e $FILE ]; then\n    $FILE\nfi";
+		};
+		FDD5E977F1DBF41868E244F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySampleApp/Pods-MySampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1870857F0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A30F04D9E365EC00000000 /* DemoFeature.swift in Sources */,
+				E7A30F04A2C572B800000000 /* UtilityFunctions.swift in Sources */,
+				E7A30F04F461178300000000 /* SignInViewController.swift in Sources */,
+				C5D957DF1E5936730013A99E /* TestingViewController.swift in Sources */,
+				E7A30F042D45845500000000 /* MainViewController.swift in Sources */,
+				E7A30F04AFAE825300000000 /* UserIdentityViewController.swift in Sources */,
+				C5D957DB1E5920A20013A99E /* FaceBookProvider.swift in Sources */,
+				E7A30F0479ACCE1500000000 /* AWSMobileClient.swift in Sources */,
+				E7A30F04879C1BE100000000 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49524373386D956C00000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49524373386D956C00000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6592B45F7BB737266130A022 /* Pods-MySampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iphone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GT4K6PPZJ6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/**",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Aws",
+					"$(PROJECT_DIR)/MySampleApp/AmazonAws",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.MyFavoritePlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4952437346F3E10800000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4952437346F3E10800000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059355B4D0BF77CB2BE3A625 /* Pods-MySampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iphone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GT4K6PPZJ6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/**",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Aws",
+					"$(PROJECT_DIR)/MySampleApp/AmazonAws",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazon.MyFavoritePlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218C37090000000000000000 /* Build configuration list for PBXProject "MySampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437346F3E10800000000 /* Debug */,
+				49524373386D956C00000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218C37090000000000000001 /* Build configuration list for PBXNativeTarget "MySampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437346F3E10800000001 /* Debug */,
+				49524373386D956C00000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C847930000000000000000 /* Project object */;
+}

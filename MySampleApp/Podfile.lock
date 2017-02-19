@@ -1,0 +1,15 @@
+PODS:
+  - AWSCognito (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCore (2.4.16)
+
+DEPENDENCIES:
+  - AWSCognito
+
+SPEC CHECKSUMS:
+  AWSCognito: 666dba6eb65ac27faad79e83febf25630913aefc
+  AWSCore: 7c3c129991e6387bcbad7132bc3661e7135754db
+
+PODFILE CHECKSUM: e5b23e7d6e0d8b80094e8f81ce4c739b02cbb920
+
+COCOAPODS: 1.1.1
