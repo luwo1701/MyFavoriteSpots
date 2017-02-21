@@ -10,6 +10,7 @@
 		0D83659CD86D1C1B8795148D /* Pods_MySampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2EA62EF859E88597E73F67B /* Pods_MySampleApp.framework */; };
 		C5D957DB1E5920A20013A99E /* FaceBookProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D957DA1E5920A20013A99E /* FaceBookProvider.swift */; };
 		C5D957DF1E5936730013A99E /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D957DE1E5936730013A99E /* TestingViewController.swift */; };
+		C5D957E31E5A66C40013A99E /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D957E21E5A66C40013A99E /* Books.swift */; };
 		E7A30F04077D295600000000 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29F31C638F00000000 /* SignIn.storyboard */; };
 		E7A30F0407CAE03600000000 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29EBA6D9AE00000000 /* CFNetwork.framework */; };
 		E7A30F04136B082C00000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29FC16223000000000 /* UIKit.framework */; };
@@ -86,6 +87,7 @@
 		A2EA62EF859E88597E73F67B /* Pods_MySampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D957DA1E5920A20013A99E /* FaceBookProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceBookProvider.swift; path = MySampleApp/App/FaceBookProvider.swift; sourceTree = SOURCE_ROOT; };
 		C5D957DE1E5936730013A99E /* TestingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestingViewController.swift; path = MySampleApp/App/TestingViewController.swift; sourceTree = SOURCE_ROOT; };
+		C5D957E21E5A66C40013A99E /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Books.swift; path = MySampleApp/Books.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 		B401C979CB3B363600000000 /* MySampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				C5D957E11E5A66AE0013A99E /* Model */,
 				B401C979DFB0EE6600000000 /* AmazonAws */,
 				B401C979B9F00F9600000000 /* App */,
 				B401C97938995B0A00000000 /* Demo */,
@@ -247,6 +250,14 @@
 			);
 			name = Utility;
 			path = mysampleapp/app/utility;
+			sourceTree = "<group>";
+		};
+		C5D957E11E5A66AE0013A99E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5D957E21E5A66C40013A99E /* Books.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +417,7 @@
 				E7A30F04A2C572B800000000 /* UtilityFunctions.swift in Sources */,
 				E7A30F04F461178300000000 /* SignInViewController.swift in Sources */,
 				C5D957DF1E5936730013A99E /* TestingViewController.swift in Sources */,
+				C5D957E31E5A66C40013A99E /* Books.swift in Sources */,
 				E7A30F042D45845500000000 /* MainViewController.swift in Sources */,
 				E7A30F04AFAE825300000000 /* UserIdentityViewController.swift in Sources */,
 				C5D957DB1E5920A20013A99E /* FaceBookProvider.swift in Sources */,
